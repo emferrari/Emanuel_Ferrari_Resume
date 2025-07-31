@@ -1,0 +1,151 @@
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2 {
+            color: #007bff;
+        }
+
+        .header {
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 10px 0;
+        }
+
+        .contact {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+
+        .contact a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .section {
+            margin: 20px 0;
+        }
+
+        .section h2 {
+            margin-bottom: 10px;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+        }
+
+        .item {
+            margin-bottom: 15px;
+        }
+        .project-header a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .project-header .btn-1 {
+            color: white;
+            font-size: 13px;
+        }
+
+        .item h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #555;
+        }
+
+        .item p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+
+        .item a {
+            color: inherit;
+        }
+
+        .item ul {
+            font-size: 14px;
+        }
+
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills ul li {
+            display: inline-block;
+            background: #007bff;
+            color: #fff;
+            padding: 5px 10px;
+            margin: 5px 5px 5px 0;
+            border-radius: 4px;
+        }
+
+        .btn-1 {
+            position: relative;
+            top: -2px;
+            font-size: 17px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 4px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .btn-1:hover {
+            background-color: #0056b3;
+        }
+
+        .back-button {
+            display: block;
+            margin-left: auto;
+            margin-right: 0;
+            margin-top: 30px;
+
+            font-size: 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 4px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+
+        .project-header {
+            display: flex;
+            align-items: baseline;
+            gap: 40px;
+            margin-bottom: 5px;
+        }
+
+         .project-header h3 {
+            margin: 0;
+            font-size: 18px;
+             font-weight: 600;
+            color: inherit;
+                }
+
+        .project-header h3:hover {
+            color: #007bff; 
+             cursor: pointer;
+        }
+     
